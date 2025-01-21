@@ -40,6 +40,6 @@ services:
       - mc:/data:ro
       - ./mc-backups:/backups
       - ./post-backup.sh:/post-backup.sh:ro
-      -
+
 volumes:
   mc:

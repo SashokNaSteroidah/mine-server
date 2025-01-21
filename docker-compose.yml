@@ -13,5 +13,17 @@ services:
       - 25565:25565
     environment:
       EULA: "TRUE"
+      VERSION: 1.12.2
+      MAX_PLAYERS: 5
+      ALLOW_NETHER: true
+      ANNOUNCE_PLAYER_ACHIEVEMENTS: true
+      ENABLE_COMMAND_BLOCK: true
+      GENERATE_STRUCTURES: true
+      SPAWN_ANIMALS: true
+      SPAWN_MONSTERS: true
+      SPAWN_NPCS: true
+      MODE: survival
+      ONLINE_MODE: false
+      SERVER_NAME: "Cockers"
     volumes:
       - ./data:/data
